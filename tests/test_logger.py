@@ -1,5 +1,12 @@
 import unittest
+import sys
+from pathlib import Path
 from typing import Any
+
+ROOT_DIR = Path(__file__).resolve().parents[1]
+SRC_DIR = ROOT_DIR / "src"
+if str(SRC_DIR) not in sys.path:
+    sys.path.insert(0, str(SRC_DIR))
 
 from eddlogger import EddLogger, LogOptions
 from eddlogger.drivers import BaseDriver, ConsoleDriver
