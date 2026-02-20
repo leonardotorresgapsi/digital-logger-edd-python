@@ -1,0 +1,9 @@
+# Core package runtime:
+# No third-party dependencies are required for the base logger API.
+
+# Optional dependencies by driver:
+# PostgreSQL driver
+psycopg>=3.1
+
+# Google Pub/Sub driver
+google-cloud-pubsub>=2.20.0
