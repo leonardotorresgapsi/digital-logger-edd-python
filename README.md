@@ -91,10 +91,10 @@ LogOptions(
 
 ## Variables de Entorno
 
-| Variable | Descripción | Requerido |
-|----------|-------------|-----------|
-| `DB_URL` | URL de PostgreSQL | Solo en local |
-| `ENV` | `local` para forzar PostgreSQL | Opcional |
-| `GOOGLE_CLOUD_PROJECT` | Project ID de GCP | Solo en prod |
-| `SDKTRACKING_PUBLISH` | `false` para deshabilitar | Opcional |
-| `PUBSUB_TOPIC_NAME` | Nombre del topic | Opcional (default: `digital-edd-sdk`) |
+| Variable               | Descripción                    | Requerido                             |
+|------------------------|--------------------------------|---------------------------------------|
+| `DB_URL`               | URL de PostgreSQL              | Solo en local                         |
+| `ENV`                  | `local` para forzar PostgreSQL | Opcional                              |
+| `GOOGLE_CLOUD_PROJECT` | Project ID de GCP              | Solo en prod                          |
+| `SDKTRACKING_PUBLISH`  | `false` para deshabilitar      | Opcional                              |
+| `PUBSUB_TOPIC_NAME`    | Nombre del topic               | Opcional (default: `digital-edd-sdk`) |
